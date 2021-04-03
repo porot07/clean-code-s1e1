@@ -21,9 +21,11 @@ body {
 }
 
 @media (max-width:768px) {
+
     .info {
         text-align: center;
     }
+    
 }
 
 .main {
@@ -138,7 +140,7 @@ input, button {
     width: 226px;
 }
 
-.item-task-controller > input[type="text"] {
+.item-task-controller > .task {
     width: 226px
 }
 
@@ -157,7 +159,7 @@ input, button {
 }
 
 /* Completed */
-#completed-tasks label {
+#completed-tasks .label-task {
     text-decoration: line-through
     color: #888;
 }
