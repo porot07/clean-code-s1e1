@@ -34,7 +34,8 @@ body {
     margin: 0 auto 0;
 }
 
-.task, .label-task {
+.task,
+.label-task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -44,7 +45,8 @@ body {
     display: flex;
 }
 
-#completed-tasks, #incomplete-tasks {
+#completed-tasks,
+#incomplete-tasks {
     margin: 0;
     padding: 0;
 }
@@ -53,11 +55,14 @@ body {
     list-style: none;
 }
 
-input, button {
+input,
+button {
     outline: none;
 }
 
-.edit, .delete, .add {
+.edit,
+.delete,
+.add {
     background: none;
     border: 0px;
     color: #888;
@@ -67,7 +72,9 @@ input, button {
     cursor: pointer;
 }
 
-.edit:hover, .delete:hover, .add:hover {
+.edit:hover,
+.delete:hover,
+.add:hover {
     color: #3a3a3a;
 }
 
