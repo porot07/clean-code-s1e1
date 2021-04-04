@@ -12,11 +12,11 @@ body {
     text-align: right;
 }
 
-.info .matrix {
+.info .info__matrix {
     width: 100%;
 }
 
-.info .more-info {
+.info .info__more-info {
     font-family: fantasy, cursive;
 }
 
@@ -45,8 +45,8 @@ body {
     display: flex;
 }
 
-#completed-tasks,
-#incomplete-tasks {
+#main__completed-tasks,
+#main__incomplete-tasks {
     margin: 0;
     padding: 0;
 }
@@ -80,7 +80,7 @@ button {
 
 /* Heading */
 .title,
-.new-task {
+.main__new-task {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -108,12 +108,12 @@ button {
 }
 
 /* New Task */
-.new-task {
+.main__new-task {
     display: block;
     margin: 0 0 20px;
 }
 
-#new-task {
+#main__new-task {
     width: 318px;
 }
 
@@ -122,7 +122,7 @@ button {
 }
 
 /* Task list */
-.item-task-controller {
+.main__item-task-controller {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -132,7 +132,7 @@ button {
     align-items: center;
 }
 
-.item-task-controller > * {
+.main__item-task-controller > * {
     vertical-align: middle;
 }
 
@@ -140,18 +140,18 @@ button {
     margin: 0 10px;
 }
 
-.item-task-controller > .label-task {
+.main__item-task-controller > .label-task {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
 
-.item-task-controller > .task {
+.main__item-task-controller > .task {
     width: 226px;
 }
 
-.item-task-controller > .delete:hover {
+.main__item-task-controller > .delete:hover {
     color: #cf2323;
 }
 
@@ -166,21 +166,21 @@ button {
 }
 
 /* Completed */
-#completed-tasks .label-task {
+#main__completed-tasks .label-task {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-.item-task-controller .task {
+.main__item-task-controller .task {
     display: none;
 }
 
-.item-task-controller.edit-mode .task {
+.main__item-task-controller.edit-mode .task {
     display: inline-block;
     width: 224px;
 }
 
-.item-task-controller.edit-mode .label-task {
+.main__item-task-controller.edit-mode .label-task {
     display: none;
 }
